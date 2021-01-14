@@ -27,18 +27,17 @@ run the notebooks-> [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 - conda:
 
   `conda install --yes   -c conda-forge emcee">=3.0.0"`
-
   `conda install --yes   -c astropy --file requirements.txt`
 
 - pip:
+
   `pip install -r requirements.txt `
 
 
 ### install jetset
-
-`python setup.py clean`
-
-`python setup.py install`
+   
+   `python setup.py clean`
+   `python setup.py install`
 
 
 
