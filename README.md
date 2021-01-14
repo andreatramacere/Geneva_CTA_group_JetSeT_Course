@@ -3,7 +3,7 @@
 ## git repo with notebooks 
 
 - to get the notebooks:
-  `git clone https://github.com/andreatramacere/Linnaeus_JetSeT_Lesson`
+  `git clone https://github.com/andreatramacere/Geneva_CTA_group_JetSeT_Course`
 
 OR if you don't have git installed on your machine
 
@@ -25,7 +25,9 @@ run the notebooks-> [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 ### requirements
 - conda:
+
   `conda install --yes   -c conda-forge emcee">=3.0.0"`
+
   `conda install --yes   -c astropy --file requirements.txt`
 
 - pip:
@@ -33,7 +35,9 @@ run the notebooks-> [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 
 ### install jetset
+
 `python setup.py clean`
+
 `python setup.py install`
 
 
