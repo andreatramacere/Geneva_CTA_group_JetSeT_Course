@@ -18,15 +18,17 @@ run the notebooks-> [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 ## code installation for version 1.2.0
 
-### src code:
+### get source code:
+- move to temporary direcotry (different from the one where you have the notebooks)
 - download  https://github.com/andreatramacere/jetset/archive/1.2.0rc1.tar.gz
 - uncompress 1.2.0rc1.tar.gz
 - `cd jetset-1.2.0rc1`
 
-### requirements
+### install requirements
 - conda:
 
   `conda install --yes   -c conda-forge emcee">=3.0.0"`
+
   `conda install --yes   -c astropy --file requirements.txt`
 
 - pip:
@@ -36,8 +38,9 @@ run the notebooks-> [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 ### install jetset
    
-   `python setup.py clean`
-   `python setup.py install`
+    `python setup.py clean`
+
+    `python setup.py install`
 
 
 
