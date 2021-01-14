@@ -45,9 +45,9 @@ will work with the version that we are using for the course, so you can use that
 
 ### install jetset
 
-    `python setup.py clean`
-
-    `python setup.py install`
+  `python setup.py clean`
+  
+  `python setup.py install`
 
 
 
