@@ -36,7 +36,6 @@ RUN apt-get install -y wget
 RUN wget  https://github.com/andreatramacere/jetset/archive/1.2.0rc1.tar.gz
 RUN tar zxfv 1.2.0rc1.tar.gz
 WORKDIR jetset-1.2.0rc1
-#RUN pip install -r requirements.txt
 RUN python setup.py install
 WORKDIR /
 # create user with a home directory
