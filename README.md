@@ -25,6 +25,23 @@ will work with the version that we are using for the course, so you can use that
 
 ## code installation for version 1.2.0
 
+### create virtual env (optional but strongly suggested)
+- conda:
+ 
+  `conda create --name jetset python=3.7 ipython jupyter jupyterlab`
+ 
+  `conda activate jetset`  
+
+- pip:
+  
+   `pip install virtualenv`
+  
+   `virtualenv --no-site-packages venv jetset`
+  
+  `source jetset/bin/activate`
+  
+  `pip install ipython jupyter jupyterlab`
+
 ### get source code:
 - move to temporary directory (different from the one where you have the notebooks)
 - download  https://github.com/andreatramacere/jetset/archive/1.2.0rc1.tar.gz
