@@ -35,9 +35,10 @@ RUN apt-get install -y wget
 #RUN pip install git+http://github.com/andreatramacere/jetset@1.1.2b#egg=jetset
 RUN wget  https://github.com/andreatramacere/jetset/archive/1.2.0rc1.tar.gz
 RUN tar zxfv 1.2.0rc1.tar.gz
-CMD cd jetset-1.2.0rc1
+WORKDIR jetset-1.2.0rc1
 RUN pip install -r requirements.txt
 RUN python setup.py install
+WORKDIR /
 # create user with a home directory
 ARG NB_USER=jovyan
 ARG NB_UID=1000
