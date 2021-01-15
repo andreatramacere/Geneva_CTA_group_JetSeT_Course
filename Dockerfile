@@ -30,6 +30,7 @@ RUN apt-get update -y
 RUN apt-get install -y swig
 RUN apt-get install -y git
 RUN apt-get install -y gcc
+RUN apt-get install -y wget
 #RUN pip install git+http://github.com/andreatramacere/jetset@1.2.0rc1#egg=jetset
 #RUN pip install git+http://github.com/andreatramacere/jetset@1.1.2b#egg=jetset
 RUN wget  https://github.com/andreatramacere/jetset/archive/1.2.0rc1.tar.gz
