@@ -48,7 +48,6 @@ will work with the version that we are using for the course, so you can use that
 
 ### get source code:
 **if you have troubles when compiling use this version: https://github.com/andreatramacere/jetset/archive/1.2.0rc2.tar.gz**
-
 **and replace 1.2.0rc1 with 1.2.0rc2 in the following lines**
 
 - move to temporary directory (different from the one where you have the notebooks)
