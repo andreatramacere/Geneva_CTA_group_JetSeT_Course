@@ -24,13 +24,17 @@ Almost everything in: https://jetset.readthedocs.io/en/1.1.2/user_guide/user_gui
 will work with the version that we are using for the course, so you can use that documentation to get a feeling with the code
 
 ## code installation for version 1.2.0
+**to avoid conflict in dependencies use python version in this range [3.6,3.8]**
+
 
 ### create virtual env (optional but strongly suggested)
 - conda:
  
-  `conda create --name jetset python=3.7 ipython jupyter jupyterlab`
+  `conda create --name jetset python=3.7 ipython jupyter jupyterlab ipykernel`
  
   `conda activate jetset`  
+
+  `conda install ipython jupyter jupyterlab ipykernel` (mandatory only if you did not create the environment)
 
 - pip:
   
@@ -43,6 +47,10 @@ will work with the version that we are using for the course, so you can use that
   `pip install ipython jupyter jupyterlab`
 
 ### get source code:
+**if you have troubles when compiling use this version: https://github.com/andreatramacere/jetset/archive/1.2.0rc2.tar.gz**
+
+**and replace 1.2.0rc1 with 1.2.0rc2 in the following lines**
+
 - move to temporary directory (different from the one where you have the notebooks)
 - download  https://github.com/andreatramacere/jetset/archive/1.2.0rc1.tar.gz
 - uncompress 1.2.0rc1.tar.gz
